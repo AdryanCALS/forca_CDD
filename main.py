@@ -1,7 +1,6 @@
-palavra = ["E", "X", "C", "E", "T", "O"]
+palavra = ["E", "X", "C", "E", "S", "S", "O"]#qualquer palavra digitada letra por letra nessa variável funciona para o código
 #array com as imagens do jogo da forca, fonte: https://gist.github.com/chrishorton/8510732aa9a80a03c829b09f12e20d9c
-#adicionar função que quando o usuario digita a palavra toda, funciona
-#poder alterar o tamanho das palavras
+
 HANGMANPICS = [r'''
   +---+
   |   |
@@ -71,7 +70,6 @@ while erros < 6:
         #vendo em qual posição o item esta na lista, baseado no exercicio da aula de 29/04 
         for i in range(len(palavra)):
             if palavra[i] == guess:
-                #palavra[i] = "_"#nao usar remove pois ele altera o tamanho da lista e da erro: index out of range
                 acertos[i] = guess
    
         print(f"Letras acertadas: {acertos}")
