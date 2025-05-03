@@ -11,7 +11,7 @@ Para alterar a palavra secreta, edite a variável no código:
 
 python
 palavra = ["E", "X", "C", "E", "S", "S", "O"]  # Altere para a palavra desejada
-🎯 Regras do Jogo
+🎯 Regras \do Jogo
 Você tem 6 tentativas para adivinhar a palavra
 
 Digite uma letra por vez
@@ -27,7 +27,7 @@ Você acerta a palavra completa (vitória!)
 Ou esgota todas as tentativas (game over)
 
 ✨ Recursos
-Visualização do estado atual da forca
+Visualização \do estado atual da forca
 
 Lista de letras já tentadas
 
