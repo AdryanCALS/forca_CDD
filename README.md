@@ -18,7 +18,7 @@ Digite uma letra por vez
 
 Letras corretas são reveladas na posição correspondente
 
-Cada erro avança um estágio do desenho da forca
+Cada erro avança um estágio \do desenho da forca
 
 O jogo termina quando:
 
@@ -35,7 +35,7 @@ Conversão automática para maiúsculas
 
 Feedback imediato sobre acertos/erros
 
-📝 Estrutura do Código
+📝 Estrutura \do Código
 palavra: Variável com a palavra secreta
 
 HANGMANPICS: Arte ASCII da forca
