@@ -1,6 +1,6 @@
 # 🎮 Jogo da Forca em Python
 
-Um clássico jogo da forca implementado em Python, onde o jogador deve adivinhar a palavra secreta em até 6 tentativas.
+Um clássico jogo da forca implementado em Python.
 
 ## 🚀 Como Executar
 
@@ -24,7 +24,7 @@ O jogo termina quando:
 
 Você acerta a palavra completa (vitória!)
 
-Ou esgota todas as tentativas (derrota)
+Ou esgota todas as tentativas (game over)
 
 ✨ Recursos
 Visualização do estado atual da forca
@@ -38,17 +38,19 @@ Feedback imediato sobre acertos/erros
 📝 Estrutura do Código
 palavra: Variável com a palavra secreta
 
-HANGMANPICS: Arte ASCII dos estágios da forca
+HANGMANPICS: Arte ASCII da forca
 
-letras_usadas: Lista de tentativas do jogador
+letras_usadas: Lista de tentativas
 
-acertos: Progresso atual do jogador
+acertos: Progresso atual
 
 📌 Observações
-Todas as entradas são convertidas para maiúsculas
+Desejo futuramente implementar uma funcionalidade de poder escolher uma palavra aleatória entre um banco de palavras disponíveis
+
+Todas as entradas são convertidas para maiúsculas automaticamente
 
 A palavra deve ser definida como lista de letras maiúsculas
 
-O desenho da forca é exibido progressivamente a cada erro
+O desenho da forca é exibido progressivamente
 
 Divirta-se! 🎉
