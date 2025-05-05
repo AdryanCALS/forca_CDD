@@ -58,7 +58,7 @@ guess = input("Digite uma letra: ").upper()#usei o metodo upper para deixar toda
 letras_usadas = []
 acertos = ["_"]*len(palavra)
 
-while erros < 6: 
+while erros < 6:
     
     #imprimindo as letras que já foram usadas pelo usuario
     letras_usadas.append(guess)
@@ -79,7 +79,7 @@ while erros < 6:
         print("Acertou")
         print(HANGMANPICS[indice_forca])
         #verifica se voce acertou a palavra
-        if acertos == palavra:
+        if palavra == ["_"]*len(palavra):
             resultado = "Voce venceu!!"
             break
         
